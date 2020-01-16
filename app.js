@@ -12,3 +12,8 @@ function print(n) {
 }
 
 let button = document.getElementById('button');
+
+button.onclick = function() {
+  let result = dice.roll();
+  print(result);
+}
