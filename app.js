@@ -5,3 +5,10 @@ let dice = {
     return rando;
   }
 }
+
+function print(n) {
+  let placeholder = document.getElementById('placeholder');
+  placeholder.innerHTML = n;
+}
+
+let button = document.getElementById('button');
